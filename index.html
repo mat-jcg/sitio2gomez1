@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>USO DE ETIQUETAS SEMANTICAS Y SLIDES</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="text/css">
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	<link rel="stylesheet" type="text/css" href="css/themes.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	
+</head>
+<body>
+	<header>
+		<img src="img/mojang.jpg">
+		<h1>Mojang Studios</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>Inicio</li>
+			<li>Servicios</li>
+			<li>Contactos</li>
+			<li>Registrarse</li>
+		</ul>
+	</nav>
+	<main>
+		<script>
+		$(function(){ 
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "centered-btns"
+     });
+     }); 
+	</script>
+    <div id="wrapper">
+
+		  <!--Slideshow-->
+		  <div class="rslides_container">
+		    <ul class="rslides" id="slider1">
+				<li><img src="img/oreo1.jpg" alt="" width="200" height="300" ></li>
+				<li><img src="img/oreo2.jpg" alt=""></li>
+				<li><img src="img/oreo3.jpg" alt=""></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	</main>
+	
+
+	<footer>
+
+
+
+	</footer>
+</body>
+</html>
