@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	<link rel="stylesheet" type="text/css" href="css/themes.css">
+
+</head>
+<body>
+	<header>
+		<img src="img/oreo.svg">
+		<h1>Oreo</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li> <a href="index.html"> Inicio </a> </li>
+			<li><a href="servicios.html">  Servicios </a> </li>
+			<li><a href="contactos.html">  Contactos </a> </li>
+			<li><a href="registrarse.html">  Registrarse </a> </li>
+		</ul>
+	</nav>
+	<main>
+	<form id="formulario" method="POST" action="">
+		<fieldset>
+			<legend>DATOS DE REGISTRO</legend>
+			<span class="etiqueta">Cedula</span>
+			<input type="text" class="texto" name="txtcedula" maxlength="10" placeholder="Deben ser 10 dígitos">
+			<br>
+			<span class="etiqueta">Nombre</span>
+			<input type="text" class="texto" name="txtnombre">
+			<br>
+			<span class="etiqueta">Apellido</span>
+			<input type="text" class="texto" name="txtapellido">
+			<br>
+			<span class="etiqueta">Usuario</span>
+			<input type="text" class="texto" name="txtusuario">
+			<br>
+			<span class="etiqueta">Clave</span>
+			<input type="text" class="texto" name="txtclave">
+			<br>
+			<span class="etiqueta">Correo</span>
+			<input type="email" class="texto" name="txtcorreo">
+			<br>
+			<span >Estado civil</span> <br>
+			<input type="radio" name="opEstCivil"> Soltero <br>
+			<input type="radio" name="opEstCivil"> Casado <br>
+			<input type="radio" name="opEstCivil"> Viudo <br>
+			<input type="radio" name="opEstCivil"> Unión de hecho <br>
+			<input type="radio" name="opEstCivil"> Divorciado <br>
+			<br>
+			<input type="submit" name="btnEnviar" value="Guadar">
+		</fieldset>
+	</form>
+	</main>
+	<footer>
+		<div id="pie">
+		  <div class="pie-container">
+				<div class="red_social">
+					<p>Visitanos en nuestras redes sociales</p>
+					<a href="https://www.oreo-la.com/ec/recetas"><img src="img/oreo7.jpg" width="75px" height="50px"></a>
+					<a href="https://www.youtube.com/@OreoEspana"><img src="img/yutu1.jpg" width="75px" height="50px"></a>
+					<a href="https://www.tiktok.com/@oreo_ecuador"><img src="img/tiktok.jpg" width="75px" height="50px"></a>
+				</div>
+				<div class="metodo_pago">
+					<p>Recibimos pagos por tarjeta</p>
+					<img src="img/tarjeta1.webp"width="75px" height="50px"><img src="img/tarjeta2.jpeg" width="75px" height="50px">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
